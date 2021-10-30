@@ -1,0 +1,312 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+
+a:hover,
+a{
+	text-decoration: none;
+}
+
+header{
+	background-color: #0872b9;
+	color: #fff;
+	padding-top: 11px;
+}
+.container{
+	margin: 0 auto;
+	max-width: 80%;
+}
+.navbar{
+	height: 80px;
+	background:#e3e3e3;
+	line-height: 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 60px 30px;
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+}
+
+
+body{	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto';
+
+}
+.navbar-nav .nav-item .nav-link{
+	color: #4e4e4e;
+	padding: 0 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: all linear .3s;
+
+}
+.navbar-nav .nav-item.active .nav-link{
+	color: #4dc5ae;
+	
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: #4dc5ae;
+	transition: all linear .3s;
+	
+}
+
+/*bnr part css start here*/
+#banner_part{
+	background-image: url(../img/bnr.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.baner_overlay{
+	padding: 320px 0;
+	/*background-color: rgba(0, 0, 0, .6);*/
+}
+.bnr_cont h3{
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+}
+.bnr_cont p{
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 30px;
+	color: #a8a8a8;
+	padding-bottom: 50px;
+}
+.bnr_cont a{
+	padding: 10px 25px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+   
+    text-transform: uppercase;
+    margin-right: 10px;
+    background-color: #3f8dbf;
+    border-radius: 5px;
+	border: 1px solid #3f8dbf;
+    transition: all linear .3s;
+}
+
+.bnr_cont a:hover{
+	text-decoration: none;
+    background-color: #3f8dbf;
+    color: #000;
+    box-shadow: 5px 5px 2px 0 #fff;
+    transition: all linear .3s;
+}
+
+/*bnr part css end here*/
+
+/*icon part css  start here */
+#icon_part{
+	padding-top: 60px;
+}
+.icon_siz{
+	width: 90px;
+	height: 90px;
+	background-color: #9d9abf;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 40%;
+
+}
+.icon_siz i{
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.icon_siz01{
+	width: 90px;
+	height: 90px;
+	background-color: #d2514b;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 40%;
+
+}
+.icon_siz01 i{
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+.icon_siz02{
+	width: 90px;
+	height: 90px;
+	background-color: #66a3c6;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 40%;
+
+}
+.icon_siz02 i{
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.icon_siz03{
+	width: 90px;
+	height: 90px;
+	background-color: #e8c04f;
+	line-height: 110px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 40%;
+
+}
+.icon_siz03 i{
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+
+.icon_cont{
+	text-align: center;
+	padding: 20px 0;
+}
+.icon_cont p{
+	color: #616161;
+	padding: 20px 20px;
+}
+
+
+/*icon part css  start here */
+
+/*our workers css part start here*/
+
+#our_workers{
+	padding-top: 60px;
+}
+.cont h3{
+	font-size: 20px;
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 28px;
+	color: #4e4e4e;
+}
+.workers_cont h4{
+	padding-top: 28px;
+	color: #4e4e4e;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+}
+.workers_cont h5{
+	padding-top: 18px;
+	color: #a8a8a8;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+	/*padding-bottom: 10px;*/
+}
+.workers_cont p{
+	padding-top: 18px;
+	color: #5c5c5c;
+	font-family: 'Roboto';
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+/*our workers css part end here*/
+/*testimonial css part start here*/
+#testmonial{
+
+}
+.testmnl_overlay{
+	padding: 100px 0;
+	background-color: rgba(239, 239, 239, 0.88);
+}
+.test_cont p{
+	/*text-align: center;*/
+	color: #a1a1a1;
+	padding-top: 35px;
+	margin: 0 364px;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/*testimonial  css part end here */
+
+
+/*footer part css  start here*/
+#footer_part{
+	background: #1c1c1c;
+
+}
+.footr_cont h3{
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+	font-size: 20px;
+	color: #6c6c6c;
+	padding-bottom: 40px;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+.footr_cont p{
+	color: #cacaca;
+}
+
+.map_cont i{
+	color: #a89574;
+	font-size: 20px;
+}
+.ftr_cont{
+	color: #cacaca;
+}
+.copyright_cont{
+	color: #cacaca;
+}
+.copyright_cont hr{
+	/*color: #fff;*/
+	background: #363636;
+}
+
+
+
+/*footer part css  end here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
